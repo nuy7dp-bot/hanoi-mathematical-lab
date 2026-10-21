@@ -1,0 +1,198 @@
+{
+  "forecast_date": "2026-10-22",
+  "created_at_local_untrusted": "2026-10-21T20:06:20.068140+07:00",
+  "model": "V16_FROZEN_BASELINE",
+  "source_path": "/mnt/data/V16_locked_probabilities_2026-10-11(1).csv",
+  "source_sha256": "137d379a356fcbfef3ee0c98f1d3b351ce25c2582741932199ba5fa1a9ce3e2d",
+  "forecast_sha256": "3efc20f15f0f3cf1d815e61423d490022c378a7aa1efc0bd3570f55c98f5f824",
+  "rows": 2200,
+  "groups": [
+    {
+      "market": "regular",
+      "field": "bottom2",
+      "top10": [
+        {
+          "number": "40",
+          "probability": 0.0150766983199416
+        },
+        {
+          "number": "60",
+          "probability": 0.014200146092038
+        },
+        {
+          "number": "50",
+          "probability": 0.0140248356464573
+        },
+        {
+          "number": "70",
+          "probability": 0.0136742147552958
+        },
+        {
+          "number": "90",
+          "probability": 0.0136742147552958
+        },
+        {
+          "number": "49",
+          "probability": 0.0135062089116143
+        },
+        {
+          "number": "46",
+          "probability": 0.0133491599707816
+        },
+        {
+          "number": "20",
+          "probability": 0.012972972972973
+        },
+        {
+          "number": "69",
+          "probability": 0.0127209642074507
+        },
+        {
+          "number": "66",
+          "probability": 0.012573046018992
+        }
+      ]
+    },
+    {
+      "market": "regular",
+      "field": "top3",
+      "top10": [
+        {
+          "number": "138",
+          "probability": 0.0016961557064735
+        },
+        {
+          "number": "438",
+          "probability": 0.0016961557064735
+        },
+        {
+          "number": "133",
+          "probability": 0.0016348488737094
+        },
+        {
+          "number": "433",
+          "probability": 0.0016348488737094
+        },
+        {
+          "number": "168",
+          "probability": 0.0015843212642884
+        },
+        {
+          "number": "468",
+          "probability": 0.0015843212642884
+        },
+        {
+          "number": "132",
+          "probability": 0.0015735420409453
+        },
+        {
+          "number": "432",
+          "probability": 0.0015735420409453
+        },
+        {
+          "number": "158",
+          "probability": 0.0015656821905909
+        },
+        {
+          "number": "458",
+          "probability": 0.0015656821905909
+        }
+      ]
+    },
+    {
+      "market": "special",
+      "field": "bottom2",
+      "top10": [
+        {
+          "number": "94",
+          "probability": 0.0288
+        },
+        {
+          "number": "97",
+          "probability": 0.0256
+        },
+        {
+          "number": "14",
+          "probability": 0.0252
+        },
+        {
+          "number": "17",
+          "probability": 0.0224
+        },
+        {
+          "number": "04",
+          "probability": 0.0216
+        },
+        {
+          "number": "34",
+          "probability": 0.0216
+        },
+        {
+          "number": "84",
+          "probability": 0.0216
+        },
+        {
+          "number": "07",
+          "probability": 0.0192
+        },
+        {
+          "number": "37",
+          "probability": 0.0192
+        },
+        {
+          "number": "87",
+          "probability": 0.0192
+        }
+      ]
+    },
+    {
+      "market": "special",
+      "field": "top3",
+      "top10": [
+        {
+          "number": "031",
+          "probability": 0.0017665498401018
+        },
+        {
+          "number": "001",
+          "probability": 0.0017239823740752
+        },
+        {
+          "number": "081",
+          "probability": 0.0016814149080487
+        },
+        {
+          "number": "071",
+          "probability": 0.0016175637090088
+        },
+        {
+          "number": "831",
+          "probability": 0.0016095231876483
+        },
+        {
+          "number": "021",
+          "probability": 0.0015962799759956
+        },
+        {
+          "number": "061",
+          "probability": 0.0015749962429823
+        },
+        {
+          "number": "801",
+          "probability": 0.0015707394963796
+        },
+        {
+          "number": "033",
+          "probability": 0.0015480075918417
+        },
+        {
+          "number": "881",
+          "probability": 0.001531955805111
+        }
+      ]
+    }
+  ],
+  "external_timestamp_verified": false,
+  "eligibility": "NOT ELIGIBLE FOR CERTIFIED PROSPECTIVE SCORING until independent pre-result timestamp is verified",
+  "note": "Hash establishes integrity, not creation time; do not relabel as V17."
+}
