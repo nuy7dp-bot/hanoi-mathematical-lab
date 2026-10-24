@@ -1,0 +1,19 @@
+{
+  "forecast_date": "2026-10-25",
+  "model": "V17_PARTIAL_EXPERIMENTAL",
+  "status": "GENERATED_NOT_EXTERNALLY_TIMESTAMPED",
+  "window_start": "2024-10-25",
+  "window_end": "2026-10-24",
+  "actual_latest_training_date": "2026-10-09",
+  "source_workbook": "Hanoi_Research_2026-10-10.xlsx / Daily 30 draws",
+  "source_quality": "historical workbook rows, not fully independently audited",
+  "training_counts": {
+    "regular_3": 30,
+    "regular_2": 30,
+    "special_3": 30,
+    "special_2": 30
+  },
+  "method": "For each position digit d, smoothed weighted count: 10 + sum(2^(-age_days/30)*1[digit=d]); positional joint product; final P=0.6*uniform+0.4*positional; normalize; rank descending, tie lexicographic",
+  "csv_sha256": "a58b83ec553d0ff2ac88bd594abfe5c68c7ae4a0134be5d61fd4171177d41546",
+  "important": "Only 30 days; 2026-10-10 through 2026-10-24 missing from verified training set. Not a prospective prediction until independent pre-draw timestamp. No V17 evidence of superiority."
+}
