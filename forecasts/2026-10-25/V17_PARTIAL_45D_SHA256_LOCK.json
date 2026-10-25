@@ -1,0 +1,87 @@
+{
+  "schema": "hanoi-math-lab-pre-draw-lock-v1",
+  "forecast_date": "2026-10-25",
+  "model": "V17_ROLLING_PARTIAL_45D_V1",
+  "window_start": "2024-10-25",
+  "window_end": "2026-10-24",
+  "observed_start": "2026-09-10",
+  "observed_end": "2026-10-24",
+  "n_training_dates_per_market": 45,
+  "n_new_dates_crosschecked": 15,
+  "n_older_dates_single_archived_workbook": 30,
+  "streams": {
+    "regular_top3": {
+      "top1": "452",
+      "p_top1": 0.001226441985346128,
+      "top10": [
+        "452",
+        "462",
+        "652",
+        "352",
+        "952",
+        "662",
+        "362",
+        "962",
+        "432",
+        "152"
+      ]
+    },
+    "regular_bottom2": {
+      "top1": "33",
+      "p_top1": 0.011603392724532587,
+      "top10": [
+        "33",
+        "93",
+        "83",
+        "38",
+        "39",
+        "30",
+        "32",
+        "73",
+        "31",
+        "98"
+      ]
+    },
+    "special_top3": {
+      "top1": "731",
+      "p_top1": 0.0011955544326065991,
+      "top10": [
+        "731",
+        "741",
+        "781",
+        "791",
+        "031",
+        "041",
+        "081",
+        "701",
+        "091",
+        "739"
+      ]
+    },
+    "special_bottom2": {
+      "top1": "15",
+      "p_top1": 0.01156633667135039,
+      "top10": [
+        "15",
+        "14",
+        "17",
+        "10",
+        "12",
+        "18",
+        "13",
+        "16",
+        "95",
+        "94"
+      ]
+    }
+  },
+  "artifacts_sha256": {
+    "probabilities_csv": "e6996ef5015afa5dee09a4fb12ecb6a8e77b251d2b03c2774eb369b67db5524b",
+    "training_csv": "5f8a281347bf9ad471b966dcfbc5089cb7061e75570f6ba8ded426cd86011463",
+    "local_manifest_json": "c5c855c855617d255cb1d51231b3364bc42bdccbf15a423151c8b6ce3e52b354",
+    "source_workbook": "14b9121b5f4996ac7773004349ed40e2f590e5f59de259f7fa3c11ccf4a48912",
+    "generation_script": "f2a23f9cbf1607405f007c8240864f423da4270c3e732789f12a91f39a9b44d7"
+  },
+  "method": "Per-market per-field positional digit counts with 10 pseudocount per digit, exponential time weight 2^(-days_before_forecast/30), positional independence product, 0.6 uniform plus 0.4 empirical, normalized. Rank probability descending with lexical tie break.",
+  "caveat": "Partial history, unvalidated, 30 of 45 dates not independently crosschecked. Separate special from Extra and เฉพาะกิจ. This commit anchors SHA256 and ranked predictions; full CSV is not uploaded here."
+}
