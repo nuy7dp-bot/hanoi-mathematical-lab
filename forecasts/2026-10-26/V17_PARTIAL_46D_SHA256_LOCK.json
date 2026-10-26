@@ -1,0 +1,85 @@
+{
+  "schema": "hanoi-math-lab-pre-draw-lock-v1",
+  "forecast_date": "2026-10-26",
+  "model": "V17_ROLLING_PARTIAL_46D_V1",
+  "window_start": "2024-10-26",
+  "window_end": "2026-10-25",
+  "observed_start": "2026-09-10",
+  "observed_end": "2026-10-25",
+  "n_training_dates_per_market": 46,
+  "n_new_dates_crosschecked": 1,
+  "n_older_dates_single_workbook_unverified": 30,
+  "streams": {
+    "regular_top3": {
+      "top1": "352",
+      "p_top1": 0.0012257945271993084,
+      "top10": [
+        "352",
+        "362",
+        "452",
+        "462",
+        "358",
+        "332",
+        "368",
+        "652",
+        "952",
+        "662"
+      ]
+    },
+    "regular_bottom2": {
+      "top1": "33",
+      "p_top1": 0.011853643267516619,
+      "top10": [
+        "33",
+        "93",
+        "83",
+        "43",
+        "73",
+        "38",
+        "39",
+        "30",
+        "32",
+        "13"
+      ]
+    },
+    "special_top3": {
+      "top1": "731",
+      "p_top1": 0.0011781364280193413,
+      "top10": [
+        "731",
+        "741",
+        "781",
+        "791",
+        "031",
+        "041",
+        "081",
+        "701",
+        "091",
+        "739"
+      ]
+    },
+    "special_bottom2": {
+      "top1": "17",
+      "p_top1": 0.011726587600884731,
+      "top10": [
+        "17",
+        "15",
+        "14",
+        "10",
+        "12",
+        "97",
+        "37",
+        "18",
+        "13",
+        "16"
+      ]
+    }
+  },
+  "artifacts_sha256": {
+    "probabilities_csv": "653075cee51dad189f17961e70fb9a5f9a0f2e2c6becdbd4ddb521d0a4f9d844",
+    "training_csv": "8ecd706637a55f73a66992652af90e042358d30718c745b6771b6b630c392627",
+    "local_manifest_json": "f06e5cf8fc6b25e2b9bc952f29dfd9984f6d605d91a1063f7a2dc285c3ae7778"
+  },
+  "method": "Per-market per-field positional digit counts with 10 pseudocount per digit, exponential time weight 2^(-days_before_forecast/30), positional independence product, 0.6 uniform plus 0.4 empirical, normalized. Rank probability descending with lexical tie break.",
+  "caveat": "Partial history and unvalidated model; no 2026-10-26 result used. Created after the 15:00 reporting deadline. GitHub commit time, if published, determines any pre-draw lock status. Full CSV stored as conversation artifact, not in GitHub."
+}
