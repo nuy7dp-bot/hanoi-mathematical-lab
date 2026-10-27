@@ -1,0 +1,191 @@
+{
+  "forecast_date": "2026-10-27",
+  "model": "V17_ROLLING_PARTIAL_47D_V1",
+  "window_start": "2024-10-27",
+  "window_end": "2026-10-26",
+  "training_dates_per_market": 47,
+  "observed_start": "2026-09-10",
+  "observed_end": "2026-10-26",
+  "training_quality": "30 dates from one archived workbook not independently verified; 15 dates prior crosschecks; 2 dates (Oct 25, Oct 26) two publishers agree. Sources not proven independent. NOT a complete 730-day dataset.",
+  "method": "Each position: pseudocount 10 for each digit; add 2^(-age_days/30) for observed digits; product of positional probabilities; final p=0.6*uniform+0.4*product; normalize, rank descending lexical tie-break.",
+  "top10": {
+    "regular_top3": [
+      [
+        "352",
+        0.0012070702236161941
+      ],
+      [
+        "362",
+        0.001201764961999919
+      ],
+      [
+        "452",
+        0.001189752842052843
+      ],
+      [
+        "462",
+        0.0011845989191715748
+      ],
+      [
+        "358",
+        0.0011780772116998265
+      ],
+      [
+        "252",
+        0.0011750590473662528
+      ],
+      [
+        "332",
+        0.0011736240735438145
+      ],
+      [
+        "368",
+        0.0011730253235933638
+      ],
+      [
+        "262",
+        0.0011700335353704403
+      ],
+      [
+        "652",
+        0.0011670428461020349
+      ]
+    ],
+    "regular_bottom2": [
+      [
+        "93",
+        0.011742101027853781
+      ],
+      [
+        "33",
+        0.01172906311304122
+      ],
+      [
+        "83",
+        0.01132388104104513
+      ],
+      [
+        "43",
+        0.010986897047176274
+      ],
+      [
+        "73",
+        0.010952479454130654
+      ],
+      [
+        "98",
+        0.010912418096662413
+      ],
+      [
+        "38",
+        0.0109012640454959
+      ],
+      [
+        "99",
+        0.01089493993773663
+      ],
+      [
+        "39",
+        0.010883825572174053
+      ],
+      [
+        "90",
+        0.010845388334454245
+      ]
+    ],
+    "special_top3": [
+      [
+        "731",
+        0.0012010247974817815
+      ],
+      [
+        "735",
+        0.001197360705586673
+      ],
+      [
+        "331",
+        0.001195711943531173
+      ],
+      [
+        "335",
+        0.001192080240957074
+      ],
+      [
+        "031",
+        0.001179106325160798
+      ],
+      [
+        "035",
+        0.0011755758571978816
+      ],
+      [
+        "739",
+        0.0011582040683401926
+      ],
+      [
+        "531",
+        0.0011541620806259892
+      ],
+      [
+        "741",
+        0.0011536908833304044
+      ],
+      [
+        "339",
+        0.001153269735011264
+      ]
+    ],
+    "special_bottom2": [
+      [
+        "17",
+        0.011606752569663165
+      ],
+      [
+        "15",
+        0.01134231661055983
+      ],
+      [
+        "14",
+        0.011332095382106035
+      ],
+      [
+        "13",
+        0.011156891560306087
+      ],
+      [
+        "10",
+        0.011069478666955478
+      ],
+      [
+        "12",
+        0.010870152302371214
+      ],
+      [
+        "97",
+        0.01086865865889753
+      ],
+      [
+        "37",
+        0.010825491517782261
+      ],
+      [
+        "18",
+        0.010816105729049234
+      ],
+      [
+        "16",
+        0.010750268240917474
+      ]
+    ]
+  },
+  "sha256_probabilities_csv": "f8b55e4c411724ab6eb0eb36c2b0281e4dc36df08c71f385e3e83134a211ed59",
+  "sha256_training_csv": "c3ca018fc6ba2441b40d106d2f3af2bc2c606429f0aa45cff27189d721cc5c1a",
+  "sha256_local_manifest_json": "076d563381625f851635f32b64c6c25423a1f5a3e1d9eec7c18be7cf446a2418",
+  "sources": [
+    "https://www.siamrath.co.th/lottery/331311",
+    "https://www.sanook.com/news/9837690/",
+    "https://www.xn--t3cmiit.com/hanoi-lottery/normal/history",
+    "https://huaysad.com/หวย/หวยฮานอยพิเศษ"
+  ],
+  "note": "The GitHub commit timestamp proves when this summary and hashes were uploaded. The full CSV files are not in this commit; hashes only authenticate matching files when supplied. No 27 Oct results used. Not evidence of predictive accuracy."
+}
