@@ -1,0 +1,137 @@
+{
+  "forecast_date": "2026-10-28",
+  "model": "V17_ROLLING_PARTIAL_48R_47S_V1",
+  "status": "FORECAST_FREEZE_CONTENT",
+  "window_start": "2024-10-28",
+  "window_end": "2026-10-27",
+  "n_dates_by_market": {
+    "regular": 48,
+    "special": 47
+  },
+  "files_sha256": {
+    "Hanoi_V17_2026-10-28_training.csv": "38944b656c1bf93611c5232ad3e91528fda1cb767c431eb85c06ee7088dfe879",
+    "Hanoi_V17_2026-10-28_probabilities.csv": "be25a928cc6cf349c1d1e45d4890aef78c9a61a1b9c14e99839c379338067d12",
+    "Hanoi_V17_2026-10-28_excluded_conflicts.json": "fb23320bf774588a547f8c0eaee8ca3adb5a8b6f26f063729c1bae3aa2c752f6",
+    "Hanoi_V17_2026-10-28_manifest.json": "ac95da60cf7c28c06d3a390ecdef83ecf4c3001d2e6162a8ade8c2167b906c3a"
+  },
+  "top10": {
+    "regular_top3": {
+      "numbers": [
+        "652",
+        "352",
+        "662",
+        "362",
+        "651",
+        "452",
+        "351",
+        "661",
+        "462",
+        "361"
+      ],
+      "probabilities": [
+        0.0011916562603776952,
+        0.0011892298503842747,
+        0.001186563914242772,
+        0.0011841583881990012,
+        0.0011748006361680238,
+        0.0011726924335882423,
+        0.0011724433518777635,
+        0.001169853365271113,
+        0.0011677633078509076,
+        0.0011675163699701667
+      ],
+      "top1": "652",
+      "top1_probability": 0.0011916562603776952,
+      "training_n": 48
+    },
+    "regular_bottom2": {
+      "numbers": [
+        "93",
+        "33",
+        "83",
+        "13",
+        "43",
+        "73",
+        "98",
+        "38",
+        "99",
+        "39"
+      ],
+      "probabilities": [
+        0.011621816334219654,
+        0.011609244084917017,
+        0.01121853359974154,
+        0.010976276925787962,
+        0.010893585412640752,
+        0.010860397087177141,
+        0.010821586454362658,
+        0.010810803784966384,
+        0.010804728755485792,
+        0.010793983785505569
+      ],
+      "top1": "93",
+      "top1_probability": 0.011621816334219654,
+      "training_n": 48
+    },
+    "special_top3": {
+      "numbers": [
+        "731",
+        "735",
+        "331",
+        "335",
+        "031",
+        "035",
+        "739",
+        "531",
+        "741",
+        "339"
+      ],
+      "probabilities": [
+        0.001196943237351111,
+        0.001193362018253559,
+        0.0011917485284590832,
+        0.0011881984737830815,
+        0.0011755121789926476,
+        0.0011720595304369357,
+        0.0011550910083779017,
+        0.0011511226342969852,
+        0.0011506582054195556,
+        0.0011502605052133115
+      ],
+      "top1": "731",
+      "top1_probability": 0.001196943237351111,
+      "training_n": 47
+    },
+    "special_bottom2": {
+      "numbers": [
+        "17",
+        "15",
+        "14",
+        "13",
+        "10",
+        "12",
+        "97",
+        "37",
+        "18",
+        "16"
+      ],
+      "probabilities": [
+        0.011575838329768325,
+        0.011317042777811004,
+        0.01130703956770164,
+        0.011135572835561665,
+        0.011050024455305191,
+        0.010854949713136436,
+        0.010852407084606218,
+        0.010810097483901458,
+        0.010802055950799075,
+        0.01073762277333593
+      ],
+      "top1": "17",
+      "top1_probability": 0.011575838329768325,
+      "training_n": 47
+    }
+  },
+  "method": "V17 Dirichlet(10 per digit) positional with 30-day half-life, 60% uniform mixture, 40% position product. 27 Oct regular 691/16 added; 27 Oct special excluded as conflict. No Oct 28 data.",
+  "source_quality_warning": "Partial historical data, 30 older dates originated in single workbook; source independence not fully verified. GitHub commit proves only a timestamped published claim, not validity of input data or predictive accuracy."
+}
