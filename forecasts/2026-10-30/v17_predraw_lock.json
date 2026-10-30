@@ -1,0 +1,133 @@
+{
+  "forecast_date": "2026-10-30",
+  "model": "V17_ROLLING_PARTIAL_50R_49S_V1",
+  "status": "PRE_DRAW_FORECAST_FREEZE",
+  "window_start": "2024-10-30",
+  "window_end": "2026-10-29",
+  "training_n": {
+    "regular": 50,
+    "special": 49
+  },
+  "observed_dates": {
+    "regular": "2026-09-10/2026-10-29",
+    "special": "2026-09-10/2026-10-29"
+  },
+  "method": "V17: Dirichlet pseudocount 10 per digit per position; observation weight 2^(-age_days/30); 60% uniform plus 40% product of positional probabilities; descending probability, lexical ties.",
+  "top10": {
+    "regular_top3": {
+      "numbers": [
+        "451",
+        "461",
+        "651",
+        "452",
+        "351",
+        "661",
+        "462",
+        "361",
+        "431",
+        "151"
+      ],
+      "probabilities": [
+        0.0012029513689874529,
+        0.0011979194143068436,
+        0.0011805311661353315,
+        0.001179777708923447,
+        0.0011782270031588798,
+        0.001175686320151185,
+        0.0011749391509464917,
+        0.001173401386658686,
+        0.0011712282375797981,
+        0.0011695325149951533
+      ]
+    },
+    "regular_bottom2": {
+      "numbers": [
+        "93",
+        "33",
+        "90",
+        "43",
+        "83",
+        "95",
+        "98",
+        "99",
+        "30",
+        "13"
+      ],
+      "probabilities": [
+        0.011740221349605073,
+        0.01138302653685324,
+        0.011245871648196097,
+        0.011070648758085897,
+        0.011019454709726867,
+        0.011002855079343052,
+        0.010947532748523045,
+        0.010930833914754736,
+        0.010919438567139655,
+        0.01079402512714655
+      ]
+    },
+    "special_top3": {
+      "numbers": [
+        "731",
+        "735",
+        "331",
+        "335",
+        "231",
+        "031",
+        "235",
+        "035",
+        "701",
+        "705"
+      ],
+      "probabilities": [
+        0.0011627983680194357,
+        0.0011595298400281628,
+        0.0011580535921460226,
+        0.0011548126200853206,
+        0.0011437325212545293,
+        0.001143223533172194,
+        0.001140574720758874,
+        0.0011400686886939844,
+        0.0011324942740076364,
+        0.00112940174115984
+      ]
+    },
+    "special_bottom2": {
+      "numbers": [
+        "17",
+        "15",
+        "14",
+        "13",
+        "19",
+        "10",
+        "12",
+        "97",
+        "37",
+        "18"
+      ],
+      "probabilities": [
+        0.011350682146792575,
+        0.011110254620440525,
+        0.011100961388605647,
+        0.010941664515269574,
+        0.010926801810637213,
+        0.010862187935038858,
+        0.01068095863121708,
+        0.010676606708346926,
+        0.010637183663190605,
+        0.010631819005972199
+      ]
+    }
+  },
+  "files_sha256": {
+    "Hanoi_V17_2026-10-30_training.csv": "88b4330a297f0bec055ab4dd423da20ad1e0497653f273bd741e11b7df5038a9",
+    "Hanoi_V17_2026-10-30_probabilities.csv": "89ea6213b03f79ee69eb35f2c2fb07dfeaadb22f4820b2aac148ad954d2f0199",
+    "Hanoi_V17_2026-10-30_manifest.json": "d2f818cbf53f6c71c36931c51cd5dcf0dc3d40943ec5652b983cb3fd591c8dd2",
+    "Hanoi_V17_2026-10-30_SHA256SUMS.txt": "8805cdcc945fad3463c02d4789222b5b882a494fbdfcccdf5443c6"
+  },
+  "sources_2026_10_29": [
+    "https://www.komchadluek.net/lottery/check-lottery/624885",
+    "https://www.tnews.co.th/lotto-horo-belief/662541"
+  ],
+  "quality_warning": "Only 50 regular / 49 special observed draws, not 730. First 30 historical dates have single-workbook provenance and not independently verified. Special 2026-10-27 excluded due earlier contradictory reporting. No 2026-10-30 results used. Extra/VIP/เฉพาะกิจ excluded. No demonstrated predictive skill."
+}
