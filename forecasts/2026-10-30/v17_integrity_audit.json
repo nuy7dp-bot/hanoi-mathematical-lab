@@ -1,0 +1,33 @@
+{
+  "forecast_date": "2026-10-30",
+  "audit_type": "APPEND_ONLY_INTEGRITY_NOTE_DO_NOT_REWRITE_PRE_DRAW_LOCK",
+  "original_commit": "aaa4eeee310eed042d54f7f3c092164fedb2d337",
+  "original_commit_timestamp_utc": "2026-10-30T07:36:16Z",
+  "original_lock_path": "forecasts/2026-10-30/v17_predraw_lock.json",
+  "original_locked_model": "V17_ROLLING_PARTIAL_50R_49S_V1",
+  "verified_csv_hashes": {
+    "Hanoi_V17_2026-10-30_training.csv": {
+      "locked": "88b4330a297f0bec055ab4dd423da20ad1e0497653f273bd741e11b7df5038a9",
+      "recomputed": "88b4330a297f0bec055ab4dd423da20ad1e0497653f273bd741e11b7df5038a9",
+      "match": true
+    },
+    "Hanoi_V17_2026-10-30_probabilities.csv": {
+      "locked": "89ea6213b03f79ee69eb35f2c2fb07dfeaadb22f4820b2aac148ad954d2f0199",
+      "recomputed": "89ea6213b03f79ee69eb35f2c2fb07dfeaadb22f4820b2aac148ad954d2f0199",
+      "match": true
+    }
+  },
+  "manifest_check": {
+    "locked_sha256": "d2f818cbf53f6c71c36931c51cd5dcf0dc3d40943ec5652b983cb3fd591c8dd2",
+    "independently_recreated_manifest_sha256": "40a99f1ae068097e612d57e0cae2c766e7ac030f8c4d6e0f5b346b4878a45b8a",
+    "match": false,
+    "note": "The original manifest file is not present in this run. An independently recreated manifest is not byte-identical; its original SHA-256 cannot be independently verified."
+  },
+  "original_sha256sums_field_issue": {
+    "locked_value": "8805cdcc945fad3463c02d4789222b5b882a494fbdfcccdf5443c6",
+    "length": 54,
+    "valid_sha256": false,
+    "note": "The locked SHA256SUMS hash has only 54 hexadecimal characters, not the required 64. Do not claim it was verified. No changes made to the original lock."
+  },
+  "qa_note": "Predraw Top10 and two CSV SHA-256 hashes are consistent. First 30 dates of both streams originate from an archived single workbook and lack independent verification. 2026-10-27 special excluded due conflicting reports. Results of 2026-10-30 not used. No evidence of predictive skill."
+}
