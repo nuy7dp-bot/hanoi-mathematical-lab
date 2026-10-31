@@ -1,0 +1,141 @@
+{
+  "forecast_date": "2026-10-31",
+  "model": "V17_ROLLING_PARTIAL_51R_50S_V1",
+  "status": "PRE_DRAW_FORECAST_FREEZE",
+  "window_start": "2024-10-31",
+  "window_end": "2026-10-30",
+  "training_n": {
+    "regular": 51,
+    "special": 50
+  },
+  "observed_dates": {
+    "regular": "2026-09-10/2026-10-30",
+    "special": "2026-09-10/2026-10-30"
+  },
+  "files_sha256": {
+    "Hanoi_V17_2026-10-31_training.csv": "35d9caa9e479c2d5d6ae640822639670cad8780656005735f2b5a0848ea3afda",
+    "Hanoi_V17_2026-10-31_probabilities.csv": "8af9aa070420ef6a0dc4e8b0f5e00ff196c6c43a908a421b9729514490a55c04",
+    "Hanoi_V17_2026-10-31_manifest.json": "cf227b9a2c51f6bc9f62d5cdbc26f34c72789caf81d24b95d772d7dc1caf5565",
+    "Hanoi_V17_2026-10-31_SHA256SUMS.txt": "aec58658763d813598156b138baad49178e997fa927251d5b084ad0699ce1f4b"
+  },
+  "top10": {
+    "regular_top3": {
+      "numbers": [
+        "451",
+        "251",
+        "651",
+        "452",
+        "351",
+        "151",
+        "252",
+        "461",
+        "652",
+        "352"
+      ],
+      "probabilities": [
+        0.0012241758257635037,
+        0.0012115622786941847,
+        0.001201332785481124,
+        0.0012005535567729275,
+        0.0011989851667715424,
+        0.0011901267035065734,
+        0.0011884173761594983,
+        0.0011806045728718546,
+        0.0011785750236051142,
+        0.0011763162517850726
+      ],
+      "training_n": 51
+    },
+    "regular_bottom2": {
+      "numbers": [
+        "93",
+        "33",
+        "83",
+        "90",
+        "43",
+        "91",
+        "95",
+        "98",
+        "99",
+        "30"
+      ],
+      "probabilities": [
+        0.011620917766766388,
+        0.011276225435048108,
+        0.011274550124887726,
+        0.011144209480577092,
+        0.010974781457990409,
+        0.010963906551883298,
+        0.010909865226452226,
+        0.01085651713412399,
+        0.010840414216686472,
+        0.01082875039822025
+      ],
+      "training_n": 51
+    },
+    "special_top3": {
+      "numbers": [
+        "031",
+        "035",
+        "731",
+        "735",
+        "331",
+        "335",
+        "001",
+        "005",
+        "038",
+        "231"
+      ],
+      "probabilities": [
+        0.0011653741804779016,
+        0.0011621440959157952,
+        0.0011469100008512745,
+        0.0011437854054742482,
+        0.0011423724490163913,
+        0.0011392737774905733,
+        0.0011354128399160821,
+        0.0011323539298910355,
+        0.0011292534042606711,
+        0.00112867683867886
+      ],
+      "training_n": 50
+    },
+    "special_bottom2": {
+      "numbers": [
+        "14",
+        "17",
+        "15",
+        "44",
+        "13",
+        "19",
+        "47",
+        "10",
+        "94",
+        "34"
+      ],
+      "probabilities": [
+        0.011367892732372953,
+        0.011244435736821243,
+        0.011012607894114996,
+        0.010904176404361839,
+        0.010850047970231027,
+        0.010835716879261622,
+        0.010791384492391115,
+        0.010773414132083985,
+        0.010701654944217485,
+        0.010662690281051792
+      ],
+      "training_n": 50
+    }
+  },
+  "method": "V17: Dirichlet pseudocount 10 per digit per position; observation weight 2^(-age_days/30), age from 2026-10-31; 60% uniform plus 40% product of smoothed positional probabilities; descending probability, lexical ties.",
+  "quality_warning": "Only 51 regular / 50 special draws per field, not 730; first 30 archived draws per stream have single-source provenance, not independently verified. 2026-10-27 special excluded. Source independence of 2026-10-30 publishers unproven. No predictive skill demonstrated.",
+  "sources_2026_10_30": [
+    "https://www.sanook.com/news/9837690/",
+    "https://www.komchadluek.net/lottery/check-lottery/624932",
+    "https://www.tnews.co.th/lotto-horo-belief/662600"
+  ],
+  "no_2026_10_31_results_used": true,
+  "extra_vip_special_case_excluded": true,
+  "reproducibility": "Reproduced 2026-10-30 V17 2200 probabilities from its archived training CSV before computing 2026-10-31."
+}
