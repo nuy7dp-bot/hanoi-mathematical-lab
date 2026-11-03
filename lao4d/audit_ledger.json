@@ -1,0 +1,332 @@
+{
+  "experiment": "Lao Development Lottery prospective 4-digit ranking",
+  "last_eligible_draw": 17,
+  "target_eligible_draws": 20,
+  "excluded": [
+    {
+      "date": "2026-10-09",
+      "reason": "No verified preregistration"
+    }
+  ],
+  "entries": [
+    {
+      "date": "2026-10-12",
+      "eligible_draw": 1,
+      "actual_4digit": "7592",
+      "ranks": {
+        "v2R": 352,
+        "v3": 244,
+        "v4A": 1249
+      },
+      "ranking_csv_sha256": "5a1c415a316d980d0fb79d3fffb88fab63de3eceba51d55756da1187390f96bb",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-13",
+      "eligible_draw": 2,
+      "actual_4digit": "7658",
+      "ranks": {
+        "v2R": 2239,
+        "v3": 806,
+        "v4A": 3847
+      },
+      "ranking_csv_sha256": "3b6c363c69b2aad4d5c689b4eb70667e233669955c8311ac8b6f2f0d56239653",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-14",
+      "eligible_draw": 3,
+      "actual_4digit": "0358",
+      "ranks": {
+        "v2R": 3032,
+        "v3": 2784,
+        "v4A": 4872
+      },
+      "ranking_csv_sha256": "c05babb3d9efbe1b9668e8fc38d0ad91ddb72e28b416122d9e9897f32b28c898",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-15",
+      "eligible_draw": 4,
+      "actual_4digit": "6261",
+      "ranks": {
+        "v2R": 6095,
+        "v3": 7151,
+        "v4A": 5766
+      },
+      "ranking_csv_sha256": "be9fd9a55a69bd0c95e8ac42e39399777d78fc58b057341ba5fc97840c318948",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-16",
+      "eligible_draw": 5,
+      "actual_4digit": "6052",
+      "ranks": {
+        "v2R": 5484,
+        "v3": 4221,
+        "v4A": 5947
+      },
+      "ranking_csv_sha256": "3d7de64a7e688a0c479062061ec21e241ee98608ba5e8810357f54c5457f86a8",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-19",
+      "eligible_draw": 6,
+      "actual_4digit": "6331",
+      "ranks": {
+        "v2R": 8535,
+        "v3": 8240,
+        "v4A": 8892
+      },
+      "ranking_csv_sha256": "1f395c67c1cba24d44e765b52e49a99555568f47d590ab0a3692534ddb95eba0",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-20",
+      "eligible_draw": 7,
+      "actual_4digit": "7767",
+      "ranks": {
+        "v2R": 614,
+        "v3": 2273,
+        "v4A": 324
+      },
+      "ranking_csv_sha256": "899a7f9f8902feed842fe5a66d9ea19c4858ef410d692e17fd0f50feb109c730",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-21",
+      "eligible_draw": 8,
+      "actual_4digit": "5208",
+      "ranks": {
+        "v2R": 3287,
+        "v3": 3320,
+        "v4A": 1907
+      },
+      "ranking_csv_sha256": "9454c8ebc76ee0a0751bb6b582ecd26bcc141215dfa395315d466a43f9680540",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-22",
+      "eligible_draw": 9,
+      "actual_4digit": "8077",
+      "ranks": {
+        "v2R": 1619,
+        "v3": 4162,
+        "v4A": 1312
+      },
+      "ranking_csv_sha256": "58f6bb28ce935964b6395b51029cd8609bf1852dd0beeb2d2775a73342727d08",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-23",
+      "eligible_draw": 10,
+      "actual_4digit": "0111",
+      "ranks": {
+        "v2R": 8030,
+        "v3": 9681,
+        "v4A": 8592
+      },
+      "ranking_csv_sha256": "76cd7e3e3705f360a6ba472056ffa259245dd6b09ddae11c59cbeb14a9f9ee99",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-26",
+      "eligible_draw": 11,
+      "actual_4digit": "0042",
+      "ranks": {
+        "v2R": 4449,
+        "v3": 5053,
+        "v4A": 2082
+      },
+      "ranking_csv_sha256": "2bb9454bb9fbcd45f11083bfa094250bb9335eb02a9f524fbe8ff9b26de5c85f",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-27",
+      "eligible_draw": 12,
+      "actual_4digit": "3372",
+      "ranks": {
+        "v2R": 257,
+        "v3": 1480,
+        "v4A": 251
+      },
+      "ranking_csv_sha256": "a0d1b0fed68147fbe5cd971f5d89395ab4b17c6d4c5f89068710dfcfef242891",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-28",
+      "eligible_draw": 13,
+      "actual_4digit": "0618",
+      "ranks": {
+        "v2R": 1496,
+        "v3": 1086,
+        "v4A": 2587
+      },
+      "ranking_csv_sha256": "2e7e7e6bd1942dfee4284c127dd93d90dedc39d986fecbb17defda6dcea0e705",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-29",
+      "eligible_draw": 14,
+      "actual_4digit": "3294",
+      "ranks": {
+        "v2R": 7220,
+        "v3": 5737,
+        "v4A": 8400
+      },
+      "ranking_csv_sha256": "4bbe0043316bb7b1afb21c54cf1e224ecda7bd2657919015f20f0065c84d7303",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-10-30",
+      "eligible_draw": 15,
+      "actual_4digit": "3206",
+      "ranks": {
+        "v2R": 1912,
+        "v3": 1652,
+        "v4A": 2144
+      },
+      "ranking_csv_sha256": "56577f75fc93fd2f59900be12869ca4ad6bc6afdffc31c53c6e7e9313ebd9217",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-11-02",
+      "eligible_draw": 16,
+      "actual_4digit": "8155",
+      "ranks": {
+        "v2R": 9384,
+        "v3": 9129,
+        "v4A": 9375
+      },
+      "ranking_csv_sha256": "16c961d899722fbcc695b4bbbca3ac7122fe9f0910394e658b5106ff97f61244",
+      "provenance": "user-provided prior audit ledger"
+    },
+    {
+      "date": "2026-11-03",
+      "eligible_draw": 17,
+      "actual_4digit": "5713",
+      "ranks": {
+        "v2R": 5495,
+        "v3": 5266,
+        "v4A": 5030
+      },
+      "ranking_csv_sha256": "cbad0cff2a96ab677435877e09738de87e7a6b836254510c0abff1060c81a81d",
+      "provenance": "independently checked in this run"
+    }
+  ],
+  "cumulative": {
+    "v2R": {
+      "mean_rank": 4088.235294117647,
+      "hit_count": {
+        "top10": 0,
+        "top100": 0,
+        "top500": 2,
+        "top1000": 3
+      },
+      "hit_rate_percent": {
+        "top10": 0,
+        "top100": 0,
+        "top500": 11.764705882352942,
+        "top1000": 17.647058823529413
+      }
+    },
+    "v3": {
+      "mean_rank": 4252.058823529412,
+      "hit_count": {
+        "top10": 0,
+        "top100": 0,
+        "top500": 1,
+        "top1000": 2
+      },
+      "hit_rate_percent": {
+        "top10": 0,
+        "top100": 0,
+        "top500": 5.882352941176471,
+        "top1000": 11.764705882352942
+      }
+    },
+    "v4A": {
+      "mean_rank": 4269.235294117647,
+      "hit_count": {
+        "top10": 0,
+        "top100": 0,
+        "top500": 2,
+        "top1000": 2
+      },
+      "hit_rate_percent": {
+        "top10": 0,
+        "top100": 0,
+        "top500": 11.764705882352942,
+        "top1000": 11.764705882352942
+      }
+    }
+  },
+  "random_baselines": {
+    "mean_rank": 5000.5,
+    "hit_rate_percent": {
+      "top10": 0.1,
+      "top100": 1,
+      "top500": 5,
+      "top1000": 10
+    }
+  },
+  "latest_draw": {
+    "date": "2026-11-03",
+    "actual_6digit": "145713",
+    "actual_4digit": "5713",
+    "pre_result_published_at": "2026-11-03T12:32:11+07:00",
+    "git_prereg_commit": "217d5ad5369fde615e7d5fba88222ad67682fe8d",
+    "git_prereg_commit_timestamp_utc": "2026-11-03T05:32:19Z",
+    "rankings_checked_at_commit": "217d5ad5369fde615e7d5fba88222ad67682fe8d",
+    "ranking_csv_sha256_verified": true,
+    "ranking_rows": 10000,
+    "unique_numbers": 10000,
+    "rank_permutations_complete": true,
+    "top10": {
+      "v2R": [
+        "3277",
+        "0677",
+        "3677",
+        "7677",
+        "3377",
+        "0607",
+        "0277",
+        "3607",
+        "7607",
+        "0602"
+      ],
+      "v3": [
+        "3607",
+        "6607",
+        "5607",
+        "0607",
+        "2607",
+        "3658",
+        "7607",
+        "7677",
+        "3600",
+        "7658"
+      ],
+      "v4A": [
+        "0277",
+        "0677",
+        "3277",
+        "0270",
+        "3677",
+        "7277",
+        "0670",
+        "3270",
+        "0272",
+        "7677"
+      ]
+    },
+    "v4B": "NOT_REGISTERED",
+    "source_urls": [
+      "https://www.pptvhd36.com/news/ลอตเตอรี่/286431",
+      "https://www.komchadluek.net/lottery/check-lottery/625101",
+      "https://thethaiger.com/th/news/1626838/"
+    ],
+    "top10_100_500_1000_all_miss": true
+  },
+  "notes": "Historical entries 1-16 transcribed from the supplied audit ledger, not independently reverified in this run. This post-result audit ledger is separate from immutable pre-result forecasts. No forecast or ranking file was changed."
+}
