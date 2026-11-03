@@ -1,0 +1,77 @@
+{
+  "target_draw_date": "2026-11-03",
+  "published_at_utc": "2026-11-03T05:32:11.701Z",
+  "published_at_asia_bangkok": "2026-11-03T12:32:11.701+07:00",
+  "status": "PRE_RESULT_LOCKED",
+  "training_draw_count": 148,
+  "training_period": [
+    "2026-04-02",
+    "2026-11-02"
+  ],
+  "latest_training_draw": {
+    "date": "2026-11-02",
+    "number": "8155",
+    "six_digit": "738155"
+  },
+  "target_draw_excluded": true,
+  "alpha": 1,
+  "score_precision": "15 digits after decimal in CSV",
+  "csv_newline": "CRLF",
+  "tie_break": "higher score first; exact ties smaller number first",
+  "zscore": "population mean and SD across all 10000 candidates",
+  "models": {
+    "v2R": "mean of z(expanding positional log probabilities), z(expanding adjacent-pair log probabilities), z(EW positional log probabilities half-life 30 draws)",
+    "v3": "0.45*z(rolling positional 30/60/120 with weights .5/.3/.2) + 0.25*z(rolling adjacent-pair 60/120 with weights .6/.4) + 0.15*z(rolling adjacent-triple 120) + 0.15*z(EW positional half-life 30)",
+    "v4A": "log product of expanding per-position Laplace-smoothed probabilities",
+    "v4B": "NOT_REGISTERED"
+  },
+  "top_10": {
+    "v2R": [
+      "3277",
+      "0677",
+      "3677",
+      "7677",
+      "3377",
+      "0607",
+      "0277",
+      "3607",
+      "7607",
+      "0602"
+    ],
+    "v3": [
+      "3607",
+      "6607",
+      "5607",
+      "0607",
+      "2607",
+      "3658",
+      "7607",
+      "7677",
+      "3600",
+      "7658"
+    ],
+    "v4A": [
+      "0277",
+      "0677",
+      "3277",
+      "0270",
+      "3677",
+      "7277",
+      "0670",
+      "3270",
+      "0272",
+      "7677"
+    ]
+  },
+  "ranking_csv_sha256": "cbad0cff2a96ab677435877e09738de87e7a6b836254510c0abff1060c81a81d",
+  "training_csv_sha256": "0076b4a1e7a3016322fe945fab3dc31b8a747c9a3f1547f5b697488b8b84fb70",
+  "ranking_rows": 10000,
+  "prior_nov02_top10_reproduced": true,
+  "source_urls": [
+    "https://www.pptvhd36.com/news/ลอตเตอรี่/286362",
+    "https://siamrath.co.th/lottery/332886",
+    "https://www.pptvhd36.com/news/ลอตเตอรี่/286368",
+    "https://www.komchadluek.net/lottery/lottery-statistics/625061"
+  ],
+  "limitations": "Not all 148 historical results independently cross-checked. GitHub commit timestamps provide external publication evidence; SHA256 by itself is not a timestamp."
+}
