@@ -1,0 +1,14 @@
+Hanoi Mathematical Lab V17 pre-draw forecast 2026-11-04
+Model: V17_ROLLING_PARTIAL_55R_54S_V1
+Window: 2024-11-04 to 2026-11-03; training regular 55, special 54.
+Method: positional Dirichlet pseudocount 10 per digit; half-life 30 days; 60% uniform + 40% positional product.
+CAUTION: 30 inherited records per market not independently verified. Excludes disputed 2026-10-27 special. No 2026-11-04 results included.
+SHA-256:
+ec5525c43f4cb3837528c03e28ce2d4ca31b3acc4e5ec99504d1727095b3b24c  Hanoi_V17_2026-11-04_training.csv
+26b2a606fa88d7d29977c7076b44b4f7225dc8fbfea7fbdefc0f40a5cf131aed  Hanoi_V17_2026-11-04_probabilities.csv
+711dbee3321ed2149e74ac69486d4f7a4296972f07ea6cb6364488ce33f81ff3  Hanoi_V17_2026-11-04_manifest.json
+Top 10, probability in percent (rounded to 6 decimals):
+regular_top3: 451:0.126768 459:0.125986 452:0.124395 457:0.122336 458:0.121691 456:0.119989 151:0.119852 159:0.119150 461:0.118854 453:0.118712
+regular_bottom2: 81:1.165479 83:1.152854 88:1.152245 91:1.130490 93:1.118646 98:1.118075 80:1.108808 41:1.104814 31:1.099845 43:1.093543
+special_top3: 305:0.119804 345:0.118922 335:0.118907 395:0.117846 308:0.116838 307:0.116837 301:0.116185 348:0.116000 347:0.115999 338:0.115985
+special_bottom2: 17:1.120358 07:1.099090 14:1.096436 87:1.093607 13:1.085391 47:1.078059 04:1.076145 84:1.070915 15:1.065648 03:1.065552
