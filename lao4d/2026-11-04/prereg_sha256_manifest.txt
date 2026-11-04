@@ -1,0 +1,5 @@
+2026-11-04 PRE-RESULT LOCK
+CSV SHA256 54a35fabb4f8d9907e0fd38e8b3d0418787cc5e30a171f164713f93da72d5226
+Training SHA256 de3168a5db480f3dd5638efdc4f23bee8bdbdf26bf8f7ef25acae75a60fb328f
+Local full ranking 10000 unique 0000..9999; ranks 1..10000 for each v2R,v3,v4A
+Local CSV available in associated ChatGPT forecast artifact; do not retroactively overwrite or regenerate as original.
