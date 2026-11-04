@@ -1,0 +1,65 @@
+{
+  "target_draw_date": "2026-11-04",
+  "forecast_created_at_asia_bangkok": "2026-11-04T12:34:52+07:00",
+  "status": "PRE_RESULT_LOCKED",
+  "training_draw_count": 148,
+  "training_period": [
+    "2026-04-02",
+    "2026-11-03"
+  ],
+  "last_training_draw": {
+    "date": "2026-11-03",
+    "number": "5713"
+  },
+  "target_draw_excluded": true,
+  "alpha": 1,
+  "models": {
+    "v2R": "equal-weight z-score expanding positional, expanding adjacent pair, exponentially weighted position half-life 30",
+    "v3": "0.45*z(rolling position 30/60/120 mix 0.5/0.3/0.2)+0.25*z(pair 60/120 mix 0.6/0.4)+0.15*z(triple120)+0.15*z(EW position half-life30)",
+    "v4A": "expanding Laplace-smoothed independent position product",
+    "v4B": "NOT_REGISTERED"
+  },
+  "tie_break": "higher score first, exact tie smaller number",
+  "top_10": {
+    "v2R": [
+      "3277",
+      "0677",
+      "3677",
+      "7677",
+      "3377",
+      "0277",
+      "0607",
+      "5277",
+      "3607",
+      "7607"
+    ],
+    "v3": [
+      "3607",
+      "6607",
+      "5607",
+      "2607",
+      "0607",
+      "7607",
+      "7677",
+      "3600",
+      "3658",
+      "6600"
+    ],
+    "v4A": [
+      "0277",
+      "0677",
+      "3277",
+      "0270",
+      "3677",
+      "7277",
+      "0670",
+      "3270",
+      "0272",
+      "7677"
+    ]
+  },
+  "ranking_csv_sha256": "54a35fabb4f8d9907e0fd38e8b3d0418787cc5e30a171f164713f93da72d5226",
+  "training_sha256": "de3168a5db480f3dd5638efdc4f23bee8bdbdf26bf8f7ef25acae75a60fb328f",
+  "ranking_rows": 10000,
+  "notes": "Ranking CSV produced and frozen in conversation artifact, not uploaded to GitHub in this commit; GitHub commit anchors exact CSV SHA256 and locked Top10."
+}
